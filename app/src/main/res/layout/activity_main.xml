@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="tw.com.frankchang.houli.classno_13_externalstorage.MainActivity"
+    android:orientation="vertical"
+    android:padding="@dimen/padding">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="@dimen/layout_width"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.6"
+            android:text="@string/file_list"
+            android:textColor="@color/colorBlue"
+            android:textSize="@dimen/TextSize"/>
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="@dimen/layout_width"
+            android:layout_height="wrap_content"
+            android:layout_weight="8.4"/>
+
+    </LinearLayout>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/layout_marginTop">
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="@dimen/layout_width"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/rb_Public"
+            android:textSize="@dimen/TextSize"
+            android:checked="true"/>
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="@dimen/layout_width"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/rb_Private"
+            android:textSize="@dimen/TextSize"/>
+    </RadioGroup>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginTop="@dimen/layout_marginTop">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="@dimen/TextSize"
+                android:hint="@string/tvShow_hint"/>
+        </LinearLayout>
+    </ScrollView>
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textSize="@dimen/TextSize"
+        android:hint="@string/etInput_hint"
+        android:layout_marginTop="@dimen/layout_marginTop"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/layout_marginTop">
+
+        <TextView
+            android:layout_width="@dimen/layout_width"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.6"
+            android:text="@string/path"
+            android:textSize="@dimen/TextSize"
+            android:textColor="@color/colorBlue"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="@dimen/layout_width"
+            android:layout_height="wrap_content"
+            android:layout_weight="8.4"
+            android:text=""
+            android:textSize="@dimen/TextSize"
+            android:hint="@string/path_hint"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/layout_marginTop">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="@dimen/layout_width"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/btn_save"
+            android:textSize="@dimen/TextSize"
+            android:layout_marginLeft="@dimen/layout_marginLeft"
+            android:layout_marginRight="@dimen/layout_marginRight"
+            android:onClick="saveOnClick"/>
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="@dimen/layout_width"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/btn_append"
+            android:textSize="@dimen/TextSize"
+            android:layout_marginLeft="@dimen/layout_marginLeft"
+            android:layout_marginRight="@dimen/layout_marginRight"
+            android:onClick="appendOnClick"/>
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="@dimen/layout_width"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/btn_delete"
+            android:textSize="@dimen/TextSize"
+            android:layout_marginLeft="@dimen/layout_marginLeft"
+            android:layout_marginRight="@dimen/layout_marginRight"
+            android:onClick="deleteOnClick"/>
+    </LinearLayout>
+</LinearLayout>

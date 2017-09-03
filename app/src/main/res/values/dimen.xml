@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding">16dp</dimen>
+    <dimen name="layout_width">0dp</dimen>
+    <dimen name="layout_marginTop">10dp</dimen>
+    <dimen name="layout_marginLeft">15dp</dimen>
+    <dimen name="layout_marginRight">15dp</dimen>
+    <dimen name="TextSize">18sp</dimen>
+</resources>

@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">No:13_ExternalStorage(I/O)</string>
+    <string name="file_list">檔案：</string>
+    <string name="rb_Public">公開區</string>
+    <string name="rb_Private">私有區</string>
+    <string name="tvShow_hint">檔案內容展示區</string>
+    <string name="etInput_hint">請輸入資料</string>
+    <string name="path">路徑：</string>
+    <string name="path_hint">路徑顯示區</string>
+    <string name="btn_save">儲存</string>
+    <string name="btn_append">附加</string>
+    <string name="btn_delete">刪除</string>
+    <string name="file_name">檔案名稱：</string>
+    <string name="file_name_hint">請輸入檔案名稱</string>
+    <string name="dialog_save_title">儲存檔案？</string>
+    <string name="dialog_btn_ok">確定</string>
+    <string name="dialog_btn_cancel">取消</string>
+    <string name="save_ok">儲存成功！</string>
+    <string name="save_error">儲存失敗！</string>
+    <string name="save_cancel">取消儲存！</string>
+    <string name="noSDCard">SDCard不存在！</string>
+    <string name="append_ok">附加資料儲存成功！</string>
+    <string name="append_error">附加資料儲存失敗！</string>
+    <string name="delete_ok">檔案刪除成功！</string>
+    <string name="delete_error">檔案刪除失敗！</string>
+    <string name="delete_cancel">取消刪除！</string>
+    <string name="dialog_delete_title">刪除檔案？</string>
+    <string name="dialog_delete_Msg_star">確定要刪除「</string>
+    <string name="dialog_delete_Msg_end">」嗎？</string>
+</resources>
